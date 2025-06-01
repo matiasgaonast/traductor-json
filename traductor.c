@@ -1,4 +1,4 @@
-// Modificación al parser original para incluir la traducción a XML
+//Traductor de JSON a XML
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
