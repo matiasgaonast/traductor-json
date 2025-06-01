@@ -7,14 +7,14 @@ Este proyecto implementa un **traductor de JSON simplificado a XML** en lenguaje
 1. Ian Delvalle - 5550211
 2. Matias Gaona - 4553979
 
-## 📁 Estructura
+## Estructura
 
 - `traductor.c`: Código fuente principal del traductor.
 - `fuente.json`: Ejemplo de archivo JSON de entrada.
 - `salida.xml`: Archivo de salida generado con la traducción a XML.
 - `output.xml`: Archivo de referencia con la salida esperada.
 
-## 🚀 Uso
+## Uso
 
 ### Compilación
 
@@ -30,14 +30,14 @@ gcc traductor.c -o traductor
 
 El programa leerá `fuente.json`, validará su sintaxis y generará `output.xml` con la traducción correspondiente.
 
-## 🛠 Características
+## Características
 
 - Traducción directa de estructuras JSON a etiquetas XML.
 - Traducción de arreglos como listas de `<item>...</item>`.
 - Manejo de errores sintácticos sin detener la ejecución (Panic Mode).
 - Soporte para tipos: cadenas, números, booleanos, null, objetos y arreglos.
 
-## 🔧 Requisitos
+## Requisitos
 
 - Compilador `gcc` (Linux o Windows vía `djgpp`).
 - Compatible con cualquier sistema que soporte C ANSI.
