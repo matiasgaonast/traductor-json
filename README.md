@@ -25,10 +25,10 @@ gcc traductor.c -o traductor
 ### Ejecución
 
 ```bash
-./traductor fuente.json salida.xml
+./traductor fuente.json output.xml
 ```
 
-El programa leerá `fuente.json`, validará su sintaxis y generará `salida.xml` con la traducción correspondiente.
+El programa leerá `fuente.json`, validará su sintaxis y generará `output.xml` con la traducción correspondiente.
 
 ## 🛠 Características
 
